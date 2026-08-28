@@ -28,21 +28,14 @@
   <div class="container">
     <h2>Registration</h2>
     <!-- action = servlet URL pattern; method POST recommended -->
-    <form action="MyApp" method="post">
-      <label>Name</label>
+    <form action="login" method="get">
+      <label>UserName</label>
       <input type="text" name="username" required>
 
-      <label>Email</label>
-      <input type="email" name="email" required>
+      <label>Password</label>
+      <input type="password" name="password" required>
 
-      <label>Course</label>
-      <select name="course">
-        <option value="java">Java</option>
-        <option value="python">Python</option>
-        <option value="web">Web Dev</option>
-      </select>
-
-      <button type="submit">Submit</button>
+      <button type="submit">LOgin</button>
     </form>
   </div>
 </body>
