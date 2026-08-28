@@ -26,20 +26,17 @@
 </head>
 <body>
   <div class="container">
-    <h2>Student Registration</h2>
+    <h2>Student Login</h2>
     <!-- action = servlet URL pattern; method POST recommended -->
-    <form action="register" method="post">
-      <label>Name</label>
+    <form action="login" method="post">
+      <label>Username</label>
       <input type="text" name="username" required>
 
-      <label>Department</label>
-      <input type="text" name="department" required>
-      
-      <label>Age</label>
-      <input type="number" name="age" required>
+      <label>Password</label>
+      <input type="password" name="password" required>
       
 
-      <button type="submit">Register</button>
+      <button type="submit">Login</button>
     </form>
   </div>
 </body>
